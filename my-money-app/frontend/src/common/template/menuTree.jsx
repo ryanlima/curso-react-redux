@@ -11,7 +11,7 @@ export default class MenuTree extends Component{
     }
 
     toggleIcon(){
-        const left = this.state.icon == 'fa-angle-left'
+        const left = this.state.icon === 'fa-angle-left'
         this.setState({ icon: left ? 'fa-angle-down' : 'fa-angle-left'})
     }
 
